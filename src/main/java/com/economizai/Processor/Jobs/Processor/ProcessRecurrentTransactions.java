@@ -28,7 +28,7 @@ public class ProcessRecurrentTransactions {
                 while (users.next()) {
                     String userId = users.getString("_id");
 
-                    System.out.println("Processando usuario -> Usser Id:"+userId);
+                    System.out.println("Processando usuario -> User Id:"+userId);
 
 
                     LocalDate currentDate = LocalDate.now();
