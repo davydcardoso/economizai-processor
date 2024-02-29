@@ -1,4 +1,4 @@
-package com.economizai.Processor.Queues.services;
+package com.economizai.Processor.queues.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

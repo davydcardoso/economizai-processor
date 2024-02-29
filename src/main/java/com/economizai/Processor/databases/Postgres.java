@@ -1,4 +1,4 @@
-package com.economizai.Processor;
+package com.economizai.Processor.databases;
 
 
 import org.springframework.context.annotation.Configuration;

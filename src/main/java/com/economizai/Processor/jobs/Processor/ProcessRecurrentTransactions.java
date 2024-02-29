@@ -1,14 +1,12 @@
-package com.economizai.Processor.Jobs.Processor;
+package com.economizai.Processor.jobs.Processor;
 
-import com.economizai.Processor.Postgres;
+import com.economizai.Processor.databases.Postgres;
 import org.springframework.stereotype.Component;
 
-import javax.xml.transform.Result;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.time.LocalDate;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.util.UUID;
 

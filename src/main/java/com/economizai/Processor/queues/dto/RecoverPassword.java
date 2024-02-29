@@ -1,4 +1,4 @@
-package com.economizai.Processor.Queues.dto;
+package com.economizai.Processor.queues.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RecoverPassword {
     private String email;
-    private String link;
+    private String code;
 }

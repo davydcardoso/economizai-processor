@@ -1,6 +1,6 @@
-package com.economizai.Processor.Queues;
+package com.economizai.Processor.queues;
 
-import com.economizai.Processor.Queues.services.RedisMessageSubscriber;
+import com.economizai.Processor.queues.services.RedisMessageSubscriber;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
